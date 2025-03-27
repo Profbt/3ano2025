@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     botaoDeAcessibilidade.addEventListener('click' , function () {
         botaoDeAcessibilidade.classlist.toggle('rotacao-botao');
-        opcoesDeAcessibilidade.classlist.togg('apresenta-lista');
+        opcoesDeAcessibilidade.classlist.toggle('apresenta-lista');
     });
     
 
