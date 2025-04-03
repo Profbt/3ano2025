@@ -3,8 +3,8 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    const botaoDeAcessibilidade = document.getElementsByClassName('botao-acessibilidade');
-    const opcoesDeAcessibilidade = document.getElementsByClassName('apresenta-lista');
+    const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade');
+    const opcoesDeAcessibilidade = document.getElementsById('apresenta-lista');
 
     
     botaoDeAcessibilidade.addEventListener('click', function () {
