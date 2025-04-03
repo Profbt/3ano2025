@@ -7,10 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const opcoesDeAcessibilidade = document.getElementsByClassName('apresenta-lista');
 
     
-    botaoDeAcessibilidade.addEventListener('click' , function () {
-        botaoDeAcessibilidade.classlist.toggle('rotacao-botao');
-        opcoesDeAcessibilidade.classlist.toggle('apresenta-lista');
-    });
+    botaoDeAcessibilidade.addEventListener('click', function () {
+        botaoDeAcessibilidade.classList.toggle('rotacao-botao');
+        opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
+
+    })
     
 
     // Acessa o botão com o ID 'aumentar-fonte' no HTML e o armazena em uma variÃ¡vel
