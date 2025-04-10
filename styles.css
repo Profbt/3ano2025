@@ -190,7 +190,20 @@ margin-bottom: 5px;
 }
 
 .alto-contraste .botao-inicio,
-.alto-contraste .formularo button,
+.alto-contraste .formulario button,
 .alto-contraste .btn-primary {
-    
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste #tropicalia {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste .fundo-galeria {
+    background: none;
 }
